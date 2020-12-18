@@ -1,0 +1,33 @@
+html{
+    animation: bgcolor infinite 20s;
+    text-align: center;
+}
+@keyframes bgcolor{
+    0%
+    {
+        background: #2ecc71;
+    }
+    20%
+    {
+        background: #8e44ad;
+    }
+    40%
+    {
+        background: #e74c3c;   
+    }
+    60%
+    {
+        background: #f9ca24;
+    }
+    80%
+    {
+        background: #e056fd;
+    }
+    100%
+    {
+        background: #de31e4;/*can change color or amount of colors(
+            to change colors change hexadecimal number. to change no
+            of colors change percentage */
+    }
+    
+}
